@@ -1,6 +1,6 @@
 # Tutoriat-SD: Materiale pentru Structuri de Date
 
-Acest document reunește materialele necesare pentru tutoriatul de Structuri de Date.
+Materiale pentru tutoriatul de SD
 
 ## Teorie
 - **Teorie completă:**  
