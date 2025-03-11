@@ -2,6 +2,9 @@
 
 Materiale pentru tutoriatul de SD
 
+Tutoriat 1:
+-> Stack: https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/
+
 ## Teorie
 - **Teorie completă:**  
   [Teorie Completa.pdf](https://github.com/FMI-Materials/FMI-Materials/blob/main/Year%20I/Semester%20II/Structuri%20De%20Date/Tutoriate/2019%20-%202020/Teorie%20Completa.pdf)
