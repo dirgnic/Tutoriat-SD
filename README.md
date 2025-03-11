@@ -13,4 +13,4 @@ Materiale pentru tutoriatul de SD
 ## 4fun
 - **DSA Crash Course & Interview Guide:**  
   [DSA Crash Course – GeeksforGeeks](https://www.geeksforgeeks.org/dsa-crash-course-interview-guide/)
-  [Sortings – GeeksforGeeks]https://www.geeksforgeeks.org/sorting-algorithms/
+  [Sortings – GeeksforGeeks](https://www.geeksforgeeks.org/sorting-algorithms/)
