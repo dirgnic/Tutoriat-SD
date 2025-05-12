@@ -1,0 +1,13 @@
+Short Summary of the PDF 'Teorie Completa':
+
+The document provides comprehensive theoretical notes on sorting algorithms and their time complexities, including:
+- **Fundamentals of Big-O notation** and recurrence relations.
+- Detailed **pseudocode** and complexity analysis for:
+  - Bubble Sort
+  - Insertion Sort
+  - Selection Sort
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
+  - Counting Sort
+- Examples illustrating the divide-and-conquer approach and heap operations.
