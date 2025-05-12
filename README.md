@@ -14,6 +14,9 @@ Tutoriat 1:
 - **Analiza algoritmilor (Big-O):**  
   [Big O Analysis – GeeksforGeeks](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
 
++ sorting 101 ˆˆ:
+  https://cse.iitrpr.ac.in/mukesh/CSL201-1718/L18-Sorting.pdf
+
 ## 4fun
 - **DSA Crash Course & Interview Guide:**  
   [DSA Crash Course – GeeksforGeeks](https://www.geeksforgeeks.org/dsa-crash-course-interview-guide/)
