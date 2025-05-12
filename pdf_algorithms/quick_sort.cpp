@@ -1,41 +1,33 @@
 /*
- * quick_sort.cpp
- * Implements Quick Sort algorithm.
- * Time Complexity: Average O(n log n), Worst O(n^2)
- * Description: Picks a pivot, partitions array around pivot,
- * and recursively sorts subarrays.
- */
-
+ quick_sort.cpp
+ Average Time: O(n log n), Worst: O(n^2)
+ Picks a pivot and partitions array recursively.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int partition(vector<int>& arr, int low, int high) {
-    int pivot = arr[high];
-    int i = low - 1;
-    for (int j = low; j < high; ++j) {
-        if (arr[j] < pivot) {
-            ++i;
-            swap(arr[i], arr[j]);
-        }
+int partition(vector<int>& a, int low, int high) {
+    int pivot = a[high], i=low-1;
+    for(int j=low; j<high; ++j) {
+        if(a[j] < pivot) swap(a[++i], a[j]);
     }
-    swap(arr[i + 1], arr[high]);
-    return i + 1;
+    swap(a[i+1], a[high]);
+    return i+1;
 }
 
-void quickSort(vector<int>& arr, int low, int high) {
-    if (low < high) {
-        int pi = partition(arr, low, high);
-        quickSort(arr, low, pi - 1);
-        quickSort(arr, pi + 1, high);
+void quickSort(vector<int>& a, int low, int high) {
+    if(low < high) {
+        int pi = partition(a, low, high);
+        quickSort(a, low, pi-1);
+        quickSort(a, pi+1, high);
     }
 }
 
 int main() {
-    vector<int> data = {10, 7, 8, 9, 1, 5};
-    quickSort(data, 0, data.size() - 1);
-    cout << "Sorted array: ";
-    for (int x : data) cout << x << " ";
+    vector<int> v = {10,7,8,9,1,5};
+    quickSort(v, 0, v.size()-1);
+    for(int x: v) cout << x << " ";
     cout << endl;
     return 0;
 }

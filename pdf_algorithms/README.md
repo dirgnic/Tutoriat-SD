@@ -1,13 +1,23 @@
-# Algorithm Implementations from PDF
+# Complete Algorithm Implementations
 
-This folder contains C++ implementations of the sorting algorithms covered in the provided PDF notes:
+This folder contains C++ implementations for all algorithms covered in the PDF notes:
 
-- **bubble_sort.cpp**: Bubble Sort
-- **insertion_sort.cpp**: Insertion Sort
-- **selection_sort.cpp**: Selection Sort
-- **merge_sort.cpp**: Merge Sort
-- **quick_sort.cpp**: Quick Sort
-- **heap_sort.cpp**: Heap Sort
-- **counting_sort.cpp**: Counting Sort
+- **Sorting Algorithms:**
+  - bubble_sort.cpp
+  - insertion_sort.cpp
+  - selection_sort.cpp
+  - merge_sort.cpp
+  - quick_sort.cpp
+  - heap_sort.cpp
+  - counting_sort.cpp
 
-Each file includes detailed comments explaining the steps and complexities.
+- **Data Structures:**
+  - bst_operations.cpp          // Binary Search Tree: insert, search, inorder, preorder
+  - huffman_coding.cpp         // Huffman coding: build tree & encode/decode
+
+- **Graph Algorithms:**
+  - graph_traversal.cpp        // DFS and BFS on adjacency list
+  - prim_mst.cpp               // Prim’s Minimum Spanning Tree
+  - kruskal_mst.cpp            // Kruskal’s Minimum Spanning Tree
+
+Each file includes comments explaining the algorithm, time complexity, and usage examples.
